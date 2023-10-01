@@ -39,7 +39,7 @@
 
 <h3>Car Reports</h3>
 
-<p>- <code>POST /api/reports/create</code>: Create a new car report.</p>
+<p>- <code>POST /reports/create</code>: Create a new car report.</p>
 <div class="code">
 <p>Request Body:</p>
 <pre>
@@ -57,7 +57,7 @@
 </pre>
 </div>
 
-<p>- <code>GET /api/reports/estimate</code>: Get an estimate for a car based on its details.</p>
+<p>- <code>GET /reports/estimate</code>: Get an estimate for a car based on its details.</p>
 <p>Query Parameters:</p>
 <pre>
 
@@ -71,7 +71,7 @@ price (number): The car's price (between 0 and 1,000,000).
 
 </pre>
 
-<p>- <code>PUT /api/reports/update/{report_id}</code>: Update an existing car report.</p>
+<p>- <code>PUT /reports/update/{report_id}</code>: Update an existing car report.</p>
 <div class="code">
 <p>Request Body:</p>
 <pre>
@@ -84,7 +84,7 @@ price (number): The car's price (between 0 and 1,000,000).
 </pre>
 </div>
 
-<p>- <code>DELETE /api/reports/delete/{report_id}</code>: Delete a car report by its ID.</p>
+<p>- <code>DELETE /reports/delete/{report_id}</code>: Delete a car report by its ID.</p>
 <p>Requires authentication using a bearer token.</p>
 
 <h2>Nest.js Installation Guide</h2>
